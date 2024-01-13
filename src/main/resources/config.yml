@@ -1,3 +1,4 @@
 kafkaServer: "localhost:9092"
 kafkaTopic: "events"
 kafkaGroup: "bungee-player-transfer"
+kafkaName: "bungee-player-transfer"

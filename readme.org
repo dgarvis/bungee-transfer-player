@@ -7,6 +7,14 @@ Transfers a player between servers when given the event to.
 
 * Events
 ** Incomming
+*** TRASFER_PLAYER
+#+begin_src json
+{
+  "eventType": "TRANSFER_PLAYER",
+  "playerName": "string",
+  "world": "string"
+}
+#+end_src
 ** Outgoing
 * Plugin Commands
 See *src/main/resources/plugin.yml*.
