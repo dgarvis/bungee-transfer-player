@@ -5,6 +5,10 @@ import net.md_5.bungee.config.Configuration;
 import net.md_5.bungee.config.ConfigurationProvider;
 import net.md_5.bungee.config.YamlConfiguration;
 
+import net.md_5.bungee.api.config.ServerInfo;
+
+import java.util.Map;
+
 import java.io.IOException;
 import java.io.FileOutputStream;
 import java.io.InputStream;
@@ -31,6 +35,9 @@ public class BungeeTransferPlugin extends Plugin {
 	}
 
 	// TODO
+	for (Map.Entry<String,ServerInfo> entry : getProxy().getServers().entrySet()) {
+	    getLogger().info(entry.getKey());
+	}
 	
 	getLogger().info("onEnable");
     }
