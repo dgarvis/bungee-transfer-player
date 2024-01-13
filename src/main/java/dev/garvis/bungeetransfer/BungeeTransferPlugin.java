@@ -1,5 +1,7 @@
 package dev.garvis.bungeetransfer;
 
+import dev.garvis.bungeetransfer.Events;
+
 import net.md_5.bungee.api.plugin.Plugin;
 import net.md_5.bungee.config.Configuration;
 import net.md_5.bungee.config.ConfigurationProvider;
@@ -38,6 +40,7 @@ public class BungeeTransferPlugin extends Plugin {
 	for (Map.Entry<String,ServerInfo> entry : getProxy().getServers().entrySet()) {
 	    getLogger().info(entry.getKey());
 	}
+	getProxy().getPluginManager().registerListener(this, new Events(this));
 	
 	getLogger().info("onEnable");
     }
