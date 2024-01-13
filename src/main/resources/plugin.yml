@@ -1,0 +1,4 @@
+name: BungeePlayerTransferPlugin
+main: dev.garvis.bungeetransfer.BungeeTransferPlugin.java
+version: 1.0
+author: Dylan G

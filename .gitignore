@@ -1,0 +1,8 @@
+*~
+#*
+*#
+.#*
+target/
+test-env/world1-plugins/*
+test-env/world2-plugins/*
+test-env/bungee-plugins/*

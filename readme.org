@@ -1,0 +1,12 @@
+#+title: Bungee Transfer Player
+#+author: Dylan Garvis
+#+email: Dylan@Garvis.dev
+
+* Overview
+Transfers a player between servers when given the event to.
+
+* Events
+** Incomming
+** Outgoing
+* Plugin Commands
+See *src/main/resources/plugin.yml*.
